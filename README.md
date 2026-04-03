@@ -1,20 +1,19 @@
-<<<<<<< HEAD
 # SABORES_IMBERICOS_Cost_Order_And_Customer_Experience_Analysis-
 This project combines order management, cost analysis, and customer feedback to identify operational inefficiencies and improve overall service performance.
-=======
-# Order, Cost & Customer Experience Analysis
 
-Project Overview
+## Order, Cost & Customer Experience Analysis
+
+### Project Overview
 This project combines order management, cost analysis, and customer feedback to identify operational inefficiencies and improve overall service performance.
 
- Objectives
+### Objectives
 * Identify causes of bad ratings and cancellations
 * Analyze drivers of refunds and costs
 * Understand customer feedback trends
 * Build predictive models for refunds and cost per order (CPO)
 
 
- Key Insights
+### Key Insights
 *  ~85% of orders are problematic (bad ratings or cancellations)
 *  Refunds are mainly driven by wrong or missing products
 *  High cancellations caused by:
@@ -27,14 +26,14 @@ This project combines order management, cost analysis, and customer feedback to 
     * Rude service
 *  Refunds and CPO can be reliably predicted using ML models
 
- Core Problems Identified
+### Core Problems Identified
 * Poor order fulfillment process
 * Inefficient inventory management
 * High delivery/logistics costs
 * Inconsistent store performance
 * Weak customer experience management
 
- Methods Used
+### Methods Used
 * Data Cleaning & Feature Engineering
 * Exploratory Data Analysis (EDA)
 * Correlation Analysis
@@ -44,21 +43,22 @@ This project combines order management, cost analysis, and customer feedback to 
     * Random Forest Regressor
 * Sentiment Analysis (VADER)
 
- Models Performance
+### Models Performance
 Model	Task	Performance
 Random Forest	Refund Prediction	Good accuracy (low error)
 Random Forest	CPO Prediction	R² ≈ 0.95
 Linear Regression	CPO Prediction	R² ≈ 0.66
- Recommendations
-* ✔ Improve order accuracy (quality checks, staff training)
-* ✔ Implement real-time inventory tracking
-* ✔ Optimize delivery routes to reduce distance costs
-* ✔ Standardize store operations using best practices
-* ✔ Use predictive models for proactive decision-making
-* ✔ Monitor customer feedback continuously
-* ✔ Encourage larger basket sizes for better efficiency
 
- Conclusion
+### Recommendations
+* Improve order accuracy (quality checks, staff training)
+* Implement real-time inventory tracking
+* Optimize delivery routes to reduce distance costs
+* Standardize store operations using best practices
+* Use predictive models for proactive decision-making
+* Monitor customer feedback continuously
+* Encourage larger basket sizes for better efficiency
+
+### Conclusion
 Most issues are internal and controllable. Improving operations will reduce costs, refunds, and complaints, while increasing efficiency and customer satisfaction.
 
 
