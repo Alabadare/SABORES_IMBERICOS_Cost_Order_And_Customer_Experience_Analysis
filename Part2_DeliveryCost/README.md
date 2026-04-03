@@ -1,23 +1,24 @@
-Cost Per Order (CPO) Prediction Analysis
-Overview
+# Cost Per Order (CPO) Prediction Analysis
+## Overview
 
 This project analyzes operational delivery data to identify key drivers of cost per order (CPO) and builds models to predict future costs across stores.
 
-Key Insights
+## Key Insights
 Distance is the strongest driver of CPO (~0.74 correlation)
 Delivery fee is highly dependent on distance (~0.93 correlation)
 Basket size has a weak negative relationship with CPO
 Significant variation in cost efficiency across stores
 Some stores consistently incur higher operational costs
 
-Model & Prediction
+## Model & Prediction
 Models:
 Linear Regression
 Random Forest Regressor
 
-Features:
+## Features:
 Store code, distance, basket size, time features
-Performance
+
+## Performance
 Random Forest:
 MAE: 0.12
 R²: 0.95
@@ -27,13 +28,13 @@ R²: 0.66
 
 Random Forest significantly outperformed Linear Regression.
 
-Recommendations
+## Recommendations
 Optimize delivery routes to reduce distance-related costs
 Encourage larger basket sizes to improve efficiency
 Investigate high-cost stores and replicate best practices from efficient ones
 Use predictive models for cost planning and budgeting
 
 
-Tools
+## Tools
 Python (Pandas, Scikit-learn)
 Data Analysis and Machine Learning
